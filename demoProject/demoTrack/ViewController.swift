@@ -30,7 +30,7 @@ class ViewController: UIViewController,LocationTrackerDelegate {
     
     
     //Initialize the LocationTrackerFile Variable , you could get the api-key from https://app.tookanapp.com/#/app/settings/apikey
-    var loc = LocationTrackerFile.sharedInstance(apiKey: "2bb9d611bbada3c385f0b5291f1ea75640ad9d0e87f8ad1d407cd5ea10c3b4c7")
+    var loc = LocationTrackerFile.sharedInstance(apiKey: "9d4a2725ac5f66fdd2de4f314389966dedf1a36f4d7aeba1665a5b648b6daf7a")
     
     
     
