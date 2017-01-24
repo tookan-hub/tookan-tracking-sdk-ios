@@ -30,7 +30,7 @@ class ViewController: UIViewController,LocationTrackerDelegate {
     
     
     //Initialize the LocationTrackerFile Variable , you could get the api-key from https://app.tookanapp.com/#/app/settings/apikey
-    var loc = LocationTrackerFile.sharedInstance(apiKey: "8fd2e8678cc91929016ab88e5224f7169fee630e393ba3d38e99b0e7c9fce170")
+    var loc = LocationTrackerFile.sharedInstance(apiKey: "2bb9d611bbada3c385f0b5291f1ea75640ad9d0e87f8ad1d407cd5ea10c3b4c7")
     
     
     
@@ -95,7 +95,7 @@ class ViewController: UIViewController,LocationTrackerDelegate {
     
     //Job completed succesfully
     func onJobComplete() {
-        print("end")
+        UIAlertView(title: "", message: "Job completed Successfully.", delegate: self, cancelButtonTitle: "OK").show()
     }
     
     @IBAction func stopTracking(_ sender: AnyObject) {
