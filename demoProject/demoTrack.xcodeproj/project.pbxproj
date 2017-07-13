@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61AB3B5E1F17F22100A3C38C /* TookanTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61AB3B5C1F17F21200A3C38C /* TookanTracker.framework */; };
+		61AB3B5F1F17F22100A3C38C /* TookanTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61AB3B5C1F17F21200A3C38C /* TookanTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		96FB82689553FB9EA855C2D1 /* Pods_demoTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956E490C838115E9CF93B56F /* Pods_demoTrack.framework */; };
 		E20F2DB11E1E487C0020081E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F2DB01E1E487C0020081E /* AppDelegate.swift */; };
 		E20F2DB31E1E487C0020081E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F2DB21E1E487C0020081E /* ViewController.swift */; };
 		E20F2DB61E1E487C0020081E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20F2DB41E1E487C0020081E /* Main.storyboard */; };
 		E20F2DB81E1E487C0020081E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20F2DB71E1E487C0020081E /* Assets.xcassets */; };
 		E20F2DBB1E1E487C0020081E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20F2DB91E1E487C0020081E /* LaunchScreen.storyboard */; };
-		E22D0D0D1E3757BF0076FE42 /* TookanTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22D0D0B1E3757A30076FE42 /* TookanTracker.framework */; };
-		E22D0D0E1E3757BF0076FE42 /* TookanTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E22D0D0B1E3757A30076FE42 /* TookanTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E22D0D111E375F320076FE42 /* MSWeakTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22D0D0F1E375F260076FE42 /* MSWeakTimer.framework */; };
 		E22D0D121E375F320076FE42 /* MSWeakTimer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E22D0D0F1E375F260076FE42 /* MSWeakTimer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E269A5F81E1E6635007E6100 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20F2DCB1E1E49C90020081E /* CocoaAsyncSocket.framework */; };
@@ -30,7 +30,7 @@
 			files = (
 				E269A5F91E1E6635007E6100 /* CocoaAsyncSocket.framework in Embed Frameworks */,
 				E22D0D121E375F320076FE42 /* MSWeakTimer.framework in Embed Frameworks */,
-				E22D0D0E1E3757BF0076FE42 /* TookanTracker.framework in Embed Frameworks */,
+				61AB3B5F1F17F22100A3C38C /* TookanTracker.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,6 +38,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		61AB3B5C1F17F21200A3C38C /* TookanTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TookanTracker.framework; sourceTree = "<group>"; };
 		956E490C838115E9CF93B56F /* Pods_demoTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demoTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69328581B57A14369F4B9BD /* Pods-demoTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoTrack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demoTrack/Pods-demoTrack.debug.xcconfig"; sourceTree = "<group>"; };
 		D09EA0AE77FD92A23762EEAB /* Pods-demoTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoTrack.release.xcconfig"; path = "Pods/Target Support Files/Pods-demoTrack/Pods-demoTrack.release.xcconfig"; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		E20F2DBA1E1E487C0020081E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E20F2DBC1E1E487C0020081E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E20F2DCB1E1E49C90020081E /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = "<group>"; };
-		E22D0D0B1E3757A30076FE42 /* TookanTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TookanTracker.framework; sourceTree = "<group>"; };
 		E22D0D0F1E375F260076FE42 /* MSWeakTimer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MSWeakTimer.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +61,7 @@
 				E269A5F81E1E6635007E6100 /* CocoaAsyncSocket.framework in Frameworks */,
 				96FB82689553FB9EA855C2D1 /* Pods_demoTrack.framework in Frameworks */,
 				E22D0D111E375F320076FE42 /* MSWeakTimer.framework in Frameworks */,
-				E22D0D0D1E3757BF0076FE42 /* TookanTracker.framework in Frameworks */,
+				61AB3B5E1F17F22100A3C38C /* TookanTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				E20F2DCB1E1E49C90020081E /* CocoaAsyncSocket.framework */,
-				E22D0D0B1E3757A30076FE42 /* TookanTracker.framework */,
 				E22D0D0F1E375F260076FE42 /* MSWeakTimer.framework */,
 				E20F2DB01E1E487C0020081E /* AppDelegate.swift */,
+				61AB3B5C1F17F21200A3C38C /* TookanTracker.framework */,
 				E20F2DB21E1E487C0020081E /* ViewController.swift */,
 				E20F2DB41E1E487C0020081E /* Main.storyboard */,
 				E20F2DB71E1E487C0020081E /* Assets.xcassets */,
