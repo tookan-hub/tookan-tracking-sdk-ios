@@ -4,7 +4,7 @@
 
 ## Example ##
 
-```swift
+```me
 import TookanTracker
 
 //Initialize the LocationTrackerFile Variable
@@ -32,7 +32,7 @@ func onJobComplete() {
 ```
 ## Installation
 
-Requires Swift 3/Xcode 8.x
+Requires me 3/Xcode 8.x
 
 1. Drag and drop the TookanTracker.framework and CocoaAsyncSocket.framework to your project.
 
